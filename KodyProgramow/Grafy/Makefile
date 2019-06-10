@@ -5,7 +5,7 @@ CC_FLAGS = -w
 # File names
 EXEC = grafy
 SOURCES = $(wildcard *.cpp)
-OBJECTS = $(SOURCES:.cpp=.o)
+OBJECTS = $(SOURCES:.cpp=.o) 
  
 # Main target
 $(EXEC): $(OBJECTS)
